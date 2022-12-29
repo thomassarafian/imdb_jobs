@@ -2,6 +2,8 @@ class ImdbJob
   include Sidekiq::Job
 
   def perform(*args)
-    # Do something
+    p 'EHOOOOO'
+    p 'EHOOOOO'
+    p 'EHOOOOO'
   end
 end
