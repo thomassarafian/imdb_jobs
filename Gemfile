@@ -80,3 +80,5 @@ gem "devise", "~> 4.8"
 gem "nokogiri", "~> 1.13"
 
 gem "imdb", "~> 0.8.1"
+
+gem "figaro", "~> 1.2"
