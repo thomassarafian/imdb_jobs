@@ -77,3 +77,6 @@ end
 gem "sidekiq", "~> 7.0"
 
 gem "devise", "~> 4.8"
+gem "nokogiri", "~> 1.13"
+
+gem "imdb", "~> 0.8.1"
