@@ -9,6 +9,6 @@ class ImdbJob
       req.params["api_key"] = api_key
     end
     response_body = JSON.parse(response.body)
-    p response_body['original_title']
+    Movie.create! title: response_body['original_title'], description: response_body['overview']
   end
 end

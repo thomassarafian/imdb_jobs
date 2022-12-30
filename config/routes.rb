@@ -1,8 +1,8 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
-  root "pages#home"
-  post "imdb", to: "pages#imdb"
+  root to: 'movies#index'
+  post "imdb", to: "movies#imdb"
   
   devise_for :users
 
